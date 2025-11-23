@@ -29,8 +29,7 @@ export function EmpathySection() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold text-navy-800 mb-6 leading-tight">
-            社長、こんな悩みを
-            <br className="hidden md:block" />
+            社長、こんな悩みを<br className="md:hidden" />
             抱えていませんか？
           </h2>
         </motion.div>
@@ -57,7 +56,8 @@ export function EmpathySection() {
           className="mt-12 text-center"
         >
           <p className="text-xl text-navy-700 font-semibold">
-            問題の根源は「戦略」と「実行」の機能不在です
+            問題の根源は「戦略」と「実行」の<br className="md:hidden" />
+            機能不在です
           </p>
         </motion.div>
       </div>
