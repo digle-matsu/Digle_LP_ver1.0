@@ -2,13 +2,12 @@
 
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Download } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 export function HeroSection() {
   const handleContactClick = () => {
     window.open('https://docs.google.com/forms/d/e/1FAIpQLSdGL5TXYHzgEqF_UxdUywJPyXwicdM3MLuXcz1BuEMVkxbPDA/viewform?usp=header', '_blank');
   };
-
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-navy-800 via-navy-700 to-navy-800">
@@ -52,7 +51,6 @@ export function HeroSection() {
             「戦略策定」から「実装」まで丸ごと引き受ける<span className="font-semibold">社外COO</span>
           </motion.p>
 
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -77,18 +75,6 @@ export function HeroSection() {
           >
             初回オンライン相談 無料
           </motion.p>
-
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.9 }}
-            className="mt-8"
-          >
-            <button className="inline-flex items-center text-white/80 hover:text-orange-400 transition-colors group">
-              <Download className="h-4 w-4 mr-2 group-hover:translate-y-1 transition-transform" />
-              <span className="text-sm font-medium underline">3分でわかるサービス資料ダウンロード</span>
-            </button>
-          </motion.div>
         </motion.div>
       </div>
 
