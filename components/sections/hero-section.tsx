@@ -9,7 +9,6 @@ export function HeroSection() {
     window.open('https://docs.google.com/forms/d/e/1FAIpQLSdGL5TXYHzgEqF_UxdUywJPyXwicdM3MLuXcz1BuEMVkxbPDA/viewform?usp=header', '_blank');
   };
 
-
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-navy-800 via-navy-700 to-navy-800">
       <div className="absolute inset-0 bg-grid-white/[0.05] -z-10" />
@@ -36,7 +35,7 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className="text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight tracking-tight px-2"
+            className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight tracking-tight px-2"
           >
             <span className="block md:inline">「次の一手」が見えないのか。</span>
             <br className="hidden md:block" />
@@ -56,7 +55,6 @@ export function HeroSection() {
             <span className="font-semibold">社外COO</span>
           </motion.p>
 
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -69,7 +67,7 @@ export function HeroSection() {
               className="bg-orange-500 hover:bg-orange-600 text-white px-6 sm:px-8 py-6 text-base sm:text-lg font-semibold shadow-lg hover:shadow-xl transition-all group w-full sm:w-auto"
             >
               <span className="block sm:inline">
-                まずは60分、御社の「課題」を
+                まずは60分、貴社の「課題」を
                 <span className="block sm:inline sm:ml-1">一緒に整理しませんか？</span>
               </span>
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform flex-shrink-0" />
