@@ -36,16 +36,15 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className="text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight tracking-tight px-2"
+            className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 tracking-tight px-2 md:leading-relaxed"
           >
-            <span className="block sm:inline">「次の一手」が</span>
+            「次の一手」が
             <br className="sm:hidden" />
-            <span className="block sm:inline">見えないのか。</span>
-            <br className="hidden md:block" />
-            <span className="block sm:inline">「実行」する</span>
+            見えないのか。
+            <br className="sm:hidden md:block" />
+            「実行」する
             <br className="sm:hidden" />
-            <span className="text-orange-500">右腕</span>
-            <span className="sm:inline">がいないのか。</span>
+            <span className="text-orange-500">右腕</span>がいないのか。
           </motion.h1>
 
           <motion.p
