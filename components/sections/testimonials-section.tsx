@@ -44,8 +44,8 @@ export function TestimonialsSection() {
             実績・お客様の声
           </div>
           <h2 className="text-3xl md:text-5xl font-bold text-navy-800 mb-6 leading-tight">
-            Digleと共に「真価」を掘り起こした
-            <br className="hidden md:block" />
+            Digleと共に「真価」を<br className="md:hidden" />
+            掘り起こした<br className="hidden md:block" />
             経営者の声
           </h2>
         </motion.div>
@@ -99,9 +99,8 @@ export function TestimonialsSection() {
           className="mt-16 text-center"
         >
           <p className="text-xl text-navy-600 leading-relaxed">
-            あなたの会社も、
-            <span className="font-semibold text-navy-800">次の成功事例</span>
-            になりませんか？
+            あなたの会社も、<br className="md:hidden" />
+            <span className="font-semibold text-navy-800">次の成功事例に</span>なりませんか？
           </p>
         </motion.div>
       </div>
