@@ -15,7 +15,7 @@ export function PricingSection() {
   };
 
   const benefits = [
-    '御社のビジョンや課題に合わせた完全カスタマイズ',
+    '貴社のビジョンや課題に合わせた完全カスタマイズ',
     '一社一社に最適なプランとお見積りをご提案',
     '常勤のNo.2を採用するより圧倒的にリーズナブル',
     'スピーディーに経営課題の解決をスタート',
@@ -50,7 +50,8 @@ export function PricingSection() {
           <div className="bg-navy-600/50 backdrop-blur-sm border border-navy-500 rounded-3xl p-8 md:p-12">
             <div className="text-center mb-8">
               <h3 className="text-2xl md:text-3xl font-bold mb-4">
-                御社に最適なプランをカスタマイズ
+                貴社に最適なプランを<br className="md:hidden" />
+                カスタマイズ
               </h3>
               <p className="text-lg text-navy-100 leading-relaxed">
                 Digleの支援は、画一的なパッケージではありません。
@@ -80,7 +81,7 @@ export function PricingSection() {
               <div className="flex items-center justify-between flex-wrap gap-4">
                 <div>
                   <p className="text-lg font-semibold mb-1">
-                    まずは無料相談で、御社の課題をお聞かせください。
+                    まずは無料相談で、貴社の課題をお聞かせください。
                   </p>
                   <p className="text-navy-200">
                     お見積り・ご提案は無料です
