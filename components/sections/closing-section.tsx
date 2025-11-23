@@ -95,7 +95,7 @@ export function ClosingSection() {
               onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdGL5TXYHzgEqF_UxdUywJPyXwicdM3MLuXcz1BuEMVkxbPDA/viewform?usp=header', '_blank')}
               className="bg-orange-500 text-white hover:bg-orange-600 px-6 sm:px-8 py-6 text-base sm:text-lg font-bold shadow-xl hover:shadow-2xl transition-all group w-full sm:w-auto"
             >
-              <span className="whitespace-nowrap">いますぐオンライン相談を予約する</span>
+              <span className="whitespace-nowrap">今すぐオンライン相談を予約する</span>
               <ArrowRight className="ml-2 h-5 w-5 sm:h-6 sm:w-6 group-hover:translate-x-1 transition-transform flex-shrink-0" />
             </Button>
 
@@ -152,9 +152,8 @@ export function ClosingSection() {
           className="mt-20 text-center"
         >
           <p className="text-xl text-navy-600 mb-8 leading-relaxed">
-            まだ迷っていますか？
-            <br />
-            まずは無料相談で、あなたの課題を一緒に整理しましょう。
+            まずは無料相談で、あなたの課題を<br className="md:hidden" />
+            一緒に整理しましょう。
           </p>
           <Button
             size="lg"
