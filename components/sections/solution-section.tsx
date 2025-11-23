@@ -46,7 +46,8 @@ export function SolutionSection() {
           <h2 className="text-3xl md:text-5xl font-bold text-navy-800 mb-6 leading-tight">
             戦略策定から実行まで
             <br />
-            <span className="text-navy-600">Digleがワンストップで伴走</span>
+            <span className="text-navy-600">Digleがワンストップで<br className="md:hidden" />
+            伴走</span>
           </h2>
         </motion.div>
 
